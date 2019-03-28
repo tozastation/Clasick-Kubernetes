@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: classick-dev
+  labels:
+    name: classick-dev
+    istio-injection: enabled
+---  
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: classick-prod
+  labels:
+    name: classick-prod
+    istio-injection: enabled
+# https://qiita.com/jackchuka/items/a1456d8cab03651ddbf8
